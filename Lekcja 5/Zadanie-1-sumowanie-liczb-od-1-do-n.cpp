@@ -8,7 +8,7 @@ int main(){
 	cin >> N;
 	for(int liczba = 0; liczba <= N; liczba+= 1){
 		//Dodanie += 1;
-		wynik = liczba + ;
+		wynik = liczba + wynik;
 		cout << liczba << endl;
 }
 cout << "Suma liczb Naturalnych Do " << N << ": " << wynik;
