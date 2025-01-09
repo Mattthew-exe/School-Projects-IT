@@ -8,6 +8,6 @@ int main(){
 	cin >> N;
 	for(int LCount = 1; LCount <= N; LCount += 1){
 		Wynik = LCount * LCount;
-		cout << LCount << " * " << LCount << "= " << Wynik << endl;
+		cout << LCount << "^" << L << " = " << Wynik << endl;
 	}
 }
