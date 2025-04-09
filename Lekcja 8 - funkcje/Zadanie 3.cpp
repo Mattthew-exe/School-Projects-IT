@@ -7,12 +7,17 @@ using namespace std;
 			getline(cin, text);
 			return text;
 		}
-			string ReverseString(char text[]){
-					string reversed;
-					strlen(text);
-				}
+			string ReverseString(string text){
+				string reversed;
+				int rozmiar = text.length();
+	 				for(int i = rozmiar - 1; i >= 0; i--){
+					cout << text[i];
+					}
+			}
 int main(){
 	string text;
 	cout << "podaj ciag znakow: ";
 	text = GetTextFromUser();
+	text = ReverseString(text);
+
 }
