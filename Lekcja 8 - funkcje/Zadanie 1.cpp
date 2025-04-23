@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int Parzystosc(int a){
-		if(a% 2 == 0){
+		if(a % 2 == 0){
 			cout << "liczba " << a << " jest parzysta";
 		}
 		else{
